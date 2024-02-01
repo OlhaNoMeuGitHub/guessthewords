@@ -1,0 +1,29 @@
+.card {
+    max-width: 400px;
+    min-width: 350px;
+  }
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100%;
+    }
+    
+.div1 { grid-area: 2 / 3 / 4 / 5; }
+    
+.div1 {
+  align-items:center;
+  flex-direction:column;
+  display: flex;
+}
+
+
+::ng-deep .mat-chip-list {
+  background-color: brown; /* Set background color to brown */
+}
+
